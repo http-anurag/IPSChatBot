@@ -304,5 +304,5 @@ function getresult(inp){
             {
                 result.innerText=data.messages //.choices[0].message.content
     })
-    
+    document.getElementById('init').disabled=true
 }
